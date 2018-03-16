@@ -1,0 +1,559 @@
+/* /////////////////////////////////////////////////////// start of general page css ///////////////////////////////////////////////////////////// */
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color:#2196F3;
+}
+
+a:hover{
+    color: #90052E;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+/* /////////////////////////////////////////////////start of general page css //////////////////////////////////////////////////////// */
+
+/* ///////////////////////////////////////////////// start of header //////////////////////////////////////////////////////////////////*/
+
+header {
+    background-color: #3B599B;
+    padding: 10px;
+    padding-bottom:5px;
+    color:white;
+    font-size: 0.9em;
+}
+
+header a {
+    color:white;
+    text-decoration: none;
+}
+
+header .logo-area {
+    color:white;
+    display: inline-block;
+    width:15%;
+}
+
+header .logo-area a{
+    
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+header .menu{
+    display:inline-block;
+    color: white;
+    border-right: 1px solid rgba(255,255,255, .3);
+    text-align: left;
+    padding-right:20px;
+    width:15%;
+    height:1.7em;
+    padding-top: 3px;
+}
+
+header .menu a{
+    
+    color: white;
+    font-size:14px;
+}
+
+header .menu ul li{
+    display:inline-block;
+    padding-left:20px;
+}
+header .icon-links ul li{
+    display:inline-block;
+}
+
+header .icon-links {
+    display:inline-block;
+    text-align: left;
+    width:20%;
+}
+
+header .icon-links a {
+   
+    color:white;
+    font-size:14px;
+}
+
+header .icon-links .quick-options {
+    display:inline-block;
+    text-align: right;
+    margin: 0 27.5px 0 27.5px;
+}
+
+header .icon-links .quick-options a{
+    display:inline-block;
+    padding-left:5px;
+}
+
+header .icon-links .privacy {
+    display:inline-block;
+    border-left: 1px solid rgba(255,255,255, .3);
+    padding-left:20px;
+    height:1.7em;
+    padding-top: 3px;
+}
+
+header .search-area {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    margin-left:230px;
+    
+}
+
+header .search-area input {
+    display: inline-block;
+    box-shadow: none;
+}
+
+header .search-area ul li{
+    display:inline-block;
+}
+
+header .search-area a{
+    color: white;
+}
+
+/* /////////////////////////////////////////////////////////// End of header //////////////////////////////////////////////////////////////////////////////// */
+
+/* /////////////////////////////////////////////////////// Start of the top section /////////////////////////////////////////////////////////////////////////*/
+
+
+#top-area {
+    padding: 200px 15px 90px 15px;
+    background: url("https://hdwallpaper20.com/wp-content/uploads/2017/08/ireland-free-desktop-1920-x-1080-kB-wallpaper-wp2406420.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#top-area .profile-info .user-img {
+     padding:10px;
+     display:inline-block;
+}
+
+#top-area .profile-info .user-img img {
+    height:125px;
+    border-radius:50%;
+}
+
+#top-area .profile-info .user-details {
+    display:inline-block;
+    vertical-align: top;
+    padding-left:20px;
+    
+}
+
+#top-area .profile-info .user-details h3 {
+    margin-bottom:10px; 
+    font-size: 24px;
+    font-weight: 300;
+    margin-top:40px;
+    color:white;
+}
+
+#top-area .profile-info .user-details a {
+    display:inline-block;
+    margin-left:-4px;
+    margin-right: 5%;
+    width:45%;
+    text-align: center;
+    text-transform:uppercase;
+    color:white;
+    font-size: 10px;
+    padding:10px;
+    border-radius:3px;
+    background: rgba(255,255,255, .3);
+    
+}
+
+/* ///////////////////////////////////////////////// end of top section //////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* ///////////////////////////////////////////////// Start of content section //////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#content-area {
+    background:#FAFAFA;
+     overflow: auto; /*used because the elements are floated and they will not work */
+    padding:50px 0;
+    
+
+}
+
+#content-area .side-column {
+    
+    float: left;
+    width:35%;
+    margin:0 2.5%;
+    max-width: 380px;
+}
+
+
+#content-area .widget-box {
+    padding:15px;
+    background: #fff;
+    border-radius: 3px;
+    margin:0 0 15px 0;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(207,195,207,1);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(207,195,207,1);
+    box-shadow: 3px 3px 5px 0px rgba(207,195,207,1);
+    overflow:auto;
+    
+
+}
+
+#content-area .intro .body a {
+    color: #2196F3;
+}
+
+#content-area .widget-box .head .widget-icon {
+  background-color: #BFBFBF;
+  height: 40px;
+  width:40px;
+  border-radius:50%;
+  color:#fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ #content-area .widget-box .head .widget-icon-container {
+    display: inline-block;
+} 
+
+#content-area .widget-box .head .widget-icon .fa{
+    max-width: 50%;
+    font-size: 25px;
+
+}
+
+#content-area .widget-box .head .widget-title{
+    display:inline-block;
+    padding: 0 0 0 10px;
+    
+}
+
+#content-area .widget-box .body {
+    padding: 15px 0;
+
+}
+
+.side-column .body-photo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.body-photo .photo img{
+    float:left;
+    padding: 2px;
+    height:110px;
+    width:33.3%;
+}
+/* ///////////////////////////////////////////////// END of content section //////////////////////////////////////////////////////////////////////////////////////////////*/
+#content-area .main-area {
+    
+    float: left;
+    width:55%;
+    margin:0 2.5%;
+}
+
+#content-area .main-area .widget-box.submenu {
+    padding:0;
+    margin:0 0 20px 0;
+}
+
+#content-area .main-area .submenu ul{
+    padding:0;
+    margin:0;
+}
+
+#content-area .main-area .submenu ul li {
+    display: inline-block;
+    color:#BFBFBF;
+    padding:10px;
+    width:20%;
+    float:left;
+    text-align: center;
+    border-bottom: 3px solid #ffffff;
+    transition: border-bottom .2s ease-in-out;
+    cursor: pointer;
+    
+}
+
+#content-area .main-area .submenu ul li:hover {
+   border-bottom: 3px solid #2196F3;
+   color:#2196F3;
+}
+
+
+
+#content-area .main-area .submenu ul li .fa {
+   
+    font-size: 20px;
+}
+
+#content-area .main-area .submenu li .fa-ellipsis-v {
+    display: inline-block;
+    height:50px;
+    
+    
+
+}
+
+#content-area .main-area .submenu ul li span {
+    display:block;
+    margin:15px 0 0 0;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#content-area .main-area .widget-box.post {
+    overflow:auto;
+}
+
+#content-area .main-area .widget-box.post .head  {
+    margin: 0 0 15px 0;
+}
+
+#content-area .main-area .widget-box.post .head .user-img-container {
+    width: 8%;
+    display:inline-block;
+    overflow: auto;
+    float: left;
+}
+#content-area .main-area .widget-box.post .head .user-img {
+    display:inline-block;
+    float: left;
+    background: url("https://pbs.twimg.com/profile_images/718588760003383296/2AG8omMO_400x400.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:40px;
+  width:40px;
+  margin: 0;
+  border-radius: 50%;
+}
+
+#content-area .main-area .widget-box.post .head .post-info {
+    display: inline-block;
+    float: left;
+    width:92%;
+    color:#636363;
+}
+
+#content-area .main-area .widget-box.post .head::after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
+#content-area .main-area .widget-box.post .head .post-info a {
+    color:#2196F3;
+}
+
+#content-area .main-area .widget-box.post .head .post-info .user-info {
+    display: block;
+    font-size: 14px;
+    margin: 4px 0 5px 0;
+}
+
+#content-area .main-area .widget-box.post .head .post-info .post-date {
+    display: block;
+    font-size: 12px;
+    color:#B6B6B6;
+}
+
+#content-area .main-area .widget-box.post .body {
+    padding:0;
+}
+
+#content-area .main-area .widget-box.post .body .post-img img {
+    width:100%;
+}
+
+#content-area .main-area .widget-box.post .body .top-icons {
+    width:100%;
+    padding:15px 0; 
+}
+
+#content-area .main-area .widget-box.post .body .top-icons .fa {
+   font-size: 20px;
+   color:#BFBFBF; 
+}
+
+#content-area .main-area .widget-box.post .body .top-icons .fa-thumbs-o-up {
+    margin-right: 15px;
+}
+
+#content-area .main-area .widget-box.post .body .top-icons span {
+   display: inline-block;
+    float:right;
+   padding:0 0 15px 0; 
+}
+
+#content-area .main-area .widget-box.post .body .post-comments {
+    background: #E0E0E0;
+    margin-left:-15;
+    margin-right:-15;
+    padding:15px;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments .user-img {
+     display: inline-block;
+    float: left;
+    width:8%;
+   
+}
+
+#content-area .main-area .widget-box.post .body .post-comments::after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments .user-img img {
+    border-radius: 50%;
+    float: left;
+    width:40px;
+    height:40px;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments .user-comment {
+    display: inline-block;
+    float: left;
+    width:92%;
+    font-size: 14px;
+    padding: 0 0 15px 0;
+    color:#636363;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments .user-comment .user-info {
+    margin: 5px 0 10px 0;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments .user-comment .user-info p {
+    margin: 5px 0 10px 0;
+}
+
+
+#content-area .main-area .widget-box.post .body .post-form {
+     padding:15px 0 0 0;   
+}
+
+#content-area .main-area .widget-box.post .body .post-form .user-img {
+     display: inline-block;
+    float: left;
+    width:8%;
+   
+}
+
+#content-area .main-area .widget-box.post .body .post-form::after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .user-img img {
+    border-radius: 50%;
+    float: left;
+    width:40px;
+    height:40px;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .user-comment {
+    display: inline-block;
+    float: left;
+    width:92%;
+    font-size: 14px;
+    padding: 0 0 15px 0;
+    color:#636363;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .user-comment .user-info {
+    margin: 5px 0 10px 0;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .user-comment .user-info p {
+    margin: 5px 0 10px 0;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .user-comment .user-info .time {
+    color:#A8A8A8;
+    font-size: 12px;
+    float:right;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .form-info {
+    display:inline-block;
+    width:80%;
+    font-size: 14px;
+    padding:10px 0;
+    border-bottom: 1px solid #ABABAB;
+}
+
+
+#content-area .main-area .widget-box.post .body .post-form .form-info i {
+    padding-bottom:10px;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .form-info input {
+    width:80%;
+    border: 0 solid #ffffff;
+    /* padding: 10px; */
+    font-size: 18px;
+}
+
+
+
+#content-area .main-area .widget-box.post .body .post-form .form-info input:focus {
+    width:80%;
+    border: 0 solid #ffffff;
+    outline:none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .form-info .icons {
+    width:20%;
+    float: right;
+}
+
+
+
+#content-area .main-area .widget-box.post .body .post-form .form-info .icons .fa {
+    font-size: 20px;
+    margin: 0 15px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
